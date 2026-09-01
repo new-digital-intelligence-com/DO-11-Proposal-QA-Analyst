@@ -1,0 +1,9 @@
+REVIEW  1 total label(s) carry different values in different tables. Decide whether they are supposed to agree — a per-section subtotal legitimately differs; a payment schedule that does not sum to the contract value does not:
+  Proposal_Kestrel.docx  "Total": 412,300.00 (table 1), 230,900.00 (table 2)
+
+[date_order]  Proposal_Kestrel.docx
+    ends 2026-09-15, before it starts 2026-10-01
+    in: Transition starts 01 October 2026 and completes 15 September 2026.
+    → correct one of the two dates
+
+1 arithmetic finding(s). Nothing has been changed.

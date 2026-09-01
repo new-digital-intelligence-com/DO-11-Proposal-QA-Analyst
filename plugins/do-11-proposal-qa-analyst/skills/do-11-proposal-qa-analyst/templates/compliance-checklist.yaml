@@ -1,0 +1,58 @@
+# Mandatory-content checklist — a SHAPE, not a checklist.
+#
+# The real one comes from two places, and neither is this file:
+#   1. The RfP itself — its instructions-to-bidders section lists the documents,
+#      forms, formats, page limits and channel. Read them out of the tender.
+#   2. The bid team's own standing rules — approval thresholds, required disclaimers,
+#      signature requirements.
+#
+# Ask for both in Phase 0. An empty or example-only checklist means the
+# mandatory-content pass DID NOT RUN, and it goes in the Unchecked bucket — not in the
+# clean pile. A PASS issued against this file as shipped is a PASS against nothing.
+
+# Documents the submission must contain. `source` records where the requirement came
+# from, so a finding can cite it.
+required_documents:
+  - item: "EXAMPLE — completed pricing form, in the client's own template, unmodified"
+    source: "RfP §7.2"
+    severity: blocker
+  - item: "EXAMPLE — signed declaration of compliance"
+    source: "RfP Annex C"
+    severity: blocker
+  - item: "EXAMPLE — two client references with contact details"
+    source: "RfP §5.4"
+    severity: blocker
+
+# Format and submission rules. These fail bids on technicalities more often than
+# content does.
+format_rules:
+  - item: "EXAMPLE — maximum 20 pages excluding annexes"
+    source: "RfP §2.1"
+    severity: blocker
+  - item: "EXAMPLE — PDF, one file per document, named <bidder>_<document>"
+    source: "RfP §2.3"
+    severity: blocker
+  - item: "EXAMPLE — submitted via the client's portal, not by email"
+    source: "RfP §2.5"
+    severity: blocker
+
+# Internal rules that apply regardless of what the client asked for.
+internal_rules:
+  - item: "EXAMPLE — discounts above 15% require named director approval"
+    source: "commercial policy"
+    severity: blocker
+  - item: "EXAMPLE — no uncapped liability, in any clause"
+    source: "commercial policy"
+    severity: blocker
+  - item: "EXAMPLE — illustrative pricing carries its disclaimer"
+    source: "commercial policy"
+    severity: recommendation
+
+# Dates the submission itself has to hit. Not the delivery timeline — the bid's own.
+deadlines:
+  - item: "EXAMPLE — clarification questions close"
+    date: "EXAMPLE 2026-09-15"
+    severity: recommendation
+  - item: "EXAMPLE — submission deadline, client local time"
+    date: "EXAMPLE 2026-09-30T12:00"
+    severity: blocker

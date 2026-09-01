@@ -1,0 +1,30 @@
+3 document(s): Proposal_Kestrel.docx, RFP_Kestrel.md, Agreed_terms.md
+authority: RFP_Kestrel.md
+
+CONFLICT — 2 field(s) disagree across the set:
+  "discount applied"
+      22%
+          Proposal_Kestrel.docx · Discount applied: 22% ("22%")
+      15%
+          Agreed_terms.md · Discount applied: 15% ("15%")
+      → ESCALATE — the authority document does not state this field, so no document in the set outranks the others on it
+  "minimum engagement"
+      300
+          Proposal_Kestrel.docx · Minimum engagement: 300 endpoints ("300")
+      250
+          Agreed_terms.md · Minimum engagement: 250 endpoints ("250")
+          RFP_Kestrel.md · Minimum engagement: 250 endpoints ("250")
+      → RFP_Kestrel.md states 250 — propose changing Proposal_Kestrel.docx to match
+
+VARIANT — 1 name(s) written differently in different documents:
+  managed endpoint services
+      "Managed Endpoint Services"  in: Proposal_Kestrel.docx, RFP_Kestrel.md
+      "managed endpoint services"  in: Proposal_Kestrel.docx
+      → RFP_Kestrel.md writes it "Managed Endpoint Services" — propose that form everywhere
+
+UNVERIFIED — 2 fact(s) appear in exactly one document, so nothing in the set can corroborate them:
+  [field] coverage = 500  only in: Proposal_Kestrel.docx
+  [field] notice period = 90  only in: RFP_Kestrel.md
+
+These are not defects. They are the part of the set this run could not check, and they must not be counted as clean.
+

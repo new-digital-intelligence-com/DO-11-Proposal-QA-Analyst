@@ -1,0 +1,9 @@
+{
+  "name": "do-11-proposal-qa-analyst",
+  "displayName": "DO-11 — Proposal QA Analyst",
+  "description": "NDI's DO-11 AI Employee. Reviews a proposal or bid before submission — scope and quantities, timeline coherence, client obligations, totals that add up, mandatory content — and returns a PASS or FIX-REQUIRED verdict with a numbered fix list separating blockers from recommendations. Never edits the proposal, never downgrades a blocker under deadline pressure, and records every waiver against the person who granted it.",
+  "author": { "name": "New Digital Intelligence" },
+  "repository": "https://github.com/new-digital-intelligence-com/DO-11-Proposal-QA-Analyst",
+  "license": "UNLICENSED",
+  "keywords": ["proposal", "bid", "qa", "review", "presales", "compliance", "ndi", "do-11"]
+}
